@@ -16,7 +16,7 @@
 		<class name="com.IntBanking.TestCases.TC_LoginTest_01" /> 
 			<!-- <class name="com.IntBanking.TestCases.TC_LoginDDT_02" /> -->
 		<!-- 	 <class name="com.IntBanking.TestCases.TC_LoginDDT_02_New" />-->
-			 <class name="com.IntBanking.TestCases.TC_NewCustomerTest_01" />
+			<!-- <class name="com.IntBanking.TestCases.TC_NewCustomerTest_01" />-->
 			<!-- <class name="com.IntBanking.TestCases.TC_NewCustomerDDT_01"/> -->
 		<!--	<class name="com.IntBanking.TestCases.TC_EditCustomerTest_03" />-->
 			<!-- <class name="com.IntBanking.TestCases.TC_EditCustomerDDT_03"/> -->
