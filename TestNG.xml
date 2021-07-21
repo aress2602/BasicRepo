@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="IntBanking_V1">
+
+	<listeners>
+		<listener class-name="com.IntBanking.Utilities.Reporting" />
+	</listeners>
+
+	<test name="BankingApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!-- <class name="com.IntBanking.TestCases.TC_LoginTest_01" /> comment 
+				example -->
+		<class name="com.IntBanking.TestCases.TC_LoginTest_01" /> 
+			<!-- <class name="com.IntBanking.TestCases.TC_LoginDDT_02" /> -->
+		<!-- 	 <class name="com.IntBanking.TestCases.TC_LoginDDT_02_New" />-->
+			 <class name="com.IntBanking.TestCases.TC_NewCustomerTest_01" />
+			<!-- <class name="com.IntBanking.TestCases.TC_NewCustomerDDT_01"/> -->
+		<!--	<class name="com.IntBanking.TestCases.TC_EditCustomerTest_03" />-->
+			<!-- <class name="com.IntBanking.TestCases.TC_EditCustomerDDT_03"/> -->
+			<!--<class name="com.IntBanking.TestCases.TC_DeleteCustomerTest_04" /> -->
+			<!-- <class name="com.IntBanking.TestCases.TC_DeleteCustomerDDT_04"/> -->
+			<!-- <class name="com.IntBanking.TestCases.TC_NewAccountTest_05" /> -->
+			<!-- <class name="com.IntBanking.TestCases.TC_NewAccountDDT_05"/> -->
+			<!--<class name="com.IntBanking.TestCases.TC_EditAccountTest_06" /> -->
+			<!--<class name="com.IntBanking.TestCases.TC_EditAccountNoChangesTest_07" 
+				/> -->
+			<!-- <class name="com.IntBanking.TestCases.TC_DeleteAccountTest_08" /> -->
+			<!-- <class name="com.IntBanking.TestCases.TC_DepositTest_09" /> -->
+			<!--<class name="com.IntBanking.TestCases.TC_WithdrawalTest_10" /> -->
+			<!--<class name="com.IntBanking.TestCases.TC_WithdrawalLowBalanceTest_11" 
+				/> -->
+			<!--<class name="com.IntBanking.TestCases.TC_FundTransferLowBalanceTest_12" 
+				/> -->
+		<!--	<class name="com.IntBanking.TestCases.TC_FTAccountNotExistTest_13" 
+				/> -->
+			<!--<class name="com.IntBanking.TestCases.TC_FundTransferTest_14" /> -->
+			<!--<class name="com.IntBanking.TestCases.TC_BalanceEnquiryTest_15" /> -->
+			<!--<class name="com.IntBanking.TestCases.TC_MiniStatementTest_16" /> -->
+		<!-- <class name="com.IntBanking.TestCases.TC_CustomisedStatementTest_17" 
+			/>-->
+		</classes>
+
+	</test>
+
+</suite>

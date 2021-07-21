@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [IntBanking_V1]">
+  <listeners>
+    <listener class-name="com.IntBanking.Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="BankingApp Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.IntBanking.TestCases.TC_CustomisedStatementTest_17">
+        <methods>
+          <include name="CustomisedStatementTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.IntBanking.TestCases.TC_CustomisedStatementTest_17 -->
+    </classes>
+  </test> <!-- BankingApp Test(failed) -->
+</suite> <!-- Failed suite [IntBanking_V1] -->

@@ -1,0 +1,2 @@
+cd C:\Program Files\eclipse-workspace\MavenProject_IntBanking_V1\MavenProject_IntBanking_V1
+mvn clean install
